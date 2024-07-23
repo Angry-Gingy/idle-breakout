@@ -13,19 +13,19 @@ import base64
 print("Welcome to the interactive \nIdle Breakout import code generator by 3kh0!\n\nPlease enter numbers for the questions.\n------------------------------------------")
 
 print("What level you want to be on?")
-level = input()
+level = input(1200)
 
 print("------------------------------------------\nHow much money do you want?")
-money = input()
+money = input(873973979)
 
 print("------------------------------------------\nHow much gold do you want?")
-gold = input()
+gold = input(727727)
 
 print("------------------------------------------\nHow many Black Boxes do you want?")
-bb = input()
+bb = input(22345432)
 
 print("------------------------------------------\nHow many skillpoints do you want?")
-sp = input()
+sp = input(334343)
 
 encode = f"{level},{money},{gold},3,0,0,0,0,0,0,0,1,1,0,43595.78,999999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,{bb},0,0,0,1,{sp},1,0,0"
 finalCode = encode.encode("UTF-8")
